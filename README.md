@@ -29,4 +29,5 @@ cy(float i); -> u(uwidth/2+i)
 w(float i)-> u(uwidth+i);
 // convert screen units to pixels but start on the bottom (negative values to "move up")
 h(float i) -> u(uheighth+i);
-```Note that these function names ar epurposefully short as to be of easy use when creating ui.
+```
+Note that these function names ar epurposefully short as to be of easy use when creating ui.

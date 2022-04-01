@@ -10,6 +10,10 @@ void rect(PVector a, PVector b){
   rect(a.x, a.y, b.x, b.y);
 }
 
+void image(PImage image, PVector a, PVector b){
+  image(image, a.x, a.y, b.x, b.y);
+}
+
 void line(float x1, float y1, float x2, float y2, DashSegment... dashes){
   line(new PVector(x1, y1), new PVector(x2, y2), dashes);
 }

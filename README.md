@@ -33,5 +33,5 @@ h(float i) -> u(uheighth+i);
 ```
 Note that these function names ar epurposefully short as to be of easy use when creating ui.
 
-### Known errors:
+### Known issues:
 - Some nullpointer during startup, probably when initializing text size, even though everything should eb fine (textSize=64)

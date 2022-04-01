@@ -17,7 +17,8 @@ This creates a basic green dashed line. You can add as many dashes as you want.
 - Use `setSize(float w, float h);` or `setSize(PVector size);` in `init` instead of the normal `size`
 - Pixels to screen units convbersion:<br>
 ```processing
-// variable u holds the size of one screen unit. the scetch is always 1000 screen units wide (uwidth) and uheight is calculated from that
+// variable u holds the size of one screen unit. the scetch is always
+// 1000 screen units wide (uwidth) and uheight is calculated from that
 
 // convert screen units to pixels
 u(float i); -> i*u
